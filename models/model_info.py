@@ -1,7 +1,8 @@
-from models.xxx.xxx import xxx
-import torch
+from models.DenseNet.DenseNet import DenseNet
+from models.VisionTransformer.VisionTransformer import ViT
 
 
 model_dic = {
-    "xxx": xxx,
+    "DenseNet": DenseNet,
+    "VisionTransformer": ViT,
 }
